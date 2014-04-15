@@ -1,5 +1,5 @@
 ## Invite All My Friends: Easy Event Invitations  ##
-**Autoselect all Facebook friends for event invitations. **
+**Autoselect all Facebook friends for event invitations.**
 
 -- [**Install the chrome extension**](https://chrome.google.com/webstore/detail/invite-all-my-friends-eas/fjojljlinmigdajkemcmbddjkpeobolk) -- 
 [**Submit feedback and bugs**](https://github.com/samanthaeschaffer/InviteAllMyFriends/issues) --
