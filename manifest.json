@@ -11,6 +11,7 @@
     },
 
     "permissions": [
+        "declarativeContent",
         "tabs",
         "http://www.facebook.com/events/*",
         "https://www.facebook.com/events/*"
