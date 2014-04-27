@@ -11,7 +11,9 @@ checkableitems[checkableitems.length-1].scrollIntoView();
 
 function OnNodeInserted () {
     for (i=indexOfFirstUnchecked; i<checkableitems.length; i++) {
+        if (!checkableitems[i].checked) {
             checkableitems[i].click();
+        }
     }
 
     indexOfFirstUnchecked = checkableitems.length;
