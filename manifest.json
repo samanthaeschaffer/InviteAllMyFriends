@@ -3,7 +3,7 @@
 
   "name": "Invite All My Friends: Easy Event Invitations",
   "description": "Autoselect all Facebook friends for event invitations.",
-  "version": "0.2",
+  "version": "1.0",
 
     "background": {
         "scripts": ["background.js"],
@@ -18,7 +18,8 @@
     ],
 
   "page_action": {
-    "default_icon": "icon48.png"
+    "default_icon": "icon48.png",
+    "default_popup": "popup.html"
   },
 
   "icons": { "16": "icon16.png",
