@@ -6,6 +6,9 @@
 ***
 Easily invite all your friends to your Facebook events! Click the icon that appears in the omnibox (address bar) when you open the event invitation page to automatically select all your friends.
 
+NEW in Version 2.0:
+Easily invite all your friends to like a Facebook Page! (BETA)
+
 ***
 
 Samantha Schaffer ([github](https://github.com/samanthaeschaffer))  
