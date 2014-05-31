@@ -16,8 +16,6 @@ if(confirm("Are you sure you want to automatically invite friends to like this p
 }
 
 function OnNodeInserted() {
-    var lastButton = buttons[0];
-
     for (i=indexOfFirstUnchecked; i<buttons.length; i++) {
         if (buttons[i].innerHTML == "Invite") {
             buttons[i].parentNode.click();
