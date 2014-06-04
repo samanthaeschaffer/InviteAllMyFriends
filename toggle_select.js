@@ -1,7 +1,7 @@
 var checkableitems = document.getElementsByName("checkableitems[]");
 checkableitems[0].scrollIntoView();
 var indexOfFirstUnchecked = 0;
-var box = document.getElementsByClassName("fbProfileBrowser")[0];
+var box = document.getElementsByClassName("listSection")[0];
 
 if (box.removeEventListener) {
     box.removeEventListener('DOMNodeInserted', OnNodeInserted, false);
@@ -13,7 +13,7 @@ if (box.addEventListener) {
 
 OnNodeInserted();
 
-function OnNodeInserted () {
+function OnNodeInserted() {
     for (i=indexOfFirstUnchecked; i<checkableitems.length; i++) {
         checkableitems[i].click();
     }

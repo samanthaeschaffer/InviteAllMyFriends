@@ -4,7 +4,7 @@
   "name": "Invite All My Friends: Easy Event Invitations",
   "short_name": "Invite All My Friends",
   "description": "Autoselect all Facebook friends for event and page invitations.",
-  "version": "2.0",
+  "version": "2.1",
 
     "background": {
         "scripts": ["background.js"],

@@ -2,9 +2,9 @@ function click(e) {
   if (e.target.id === "select_all") {
     chrome.tabs.executeScript(null, {file: "select_all.js"});
   } else if (e.target.id === "unselect_all") {
-    chrome.tabs.executeScript(id, {file: "unselect_all.js"});
+    chrome.tabs.executeScript(null, {file: "unselect_all.js"});
   } else if (e.target.id === "toggle_select") {
-    chrome.tabs.executeScript(id, {file: "toggle_select.js"});
+    chrome.tabs.executeScript(null, {file: "toggle_select.js"});
   } else if (e.target.id === "invite_all") {
     chrome.tabs.executeScript(null, {file: "invite_all.js"});
   }
