@@ -3,11 +3,11 @@
 
   "name": "Invite All My Friends: Easy Event Invitations",
   "short_name": "Invite All My Friends",
-  "description": "Autoselect all Facebook friends for event and page invitations.",
-  "version": "2.1",
+  "description": "Autoselect all Facebook friends for event invitations.",
+  "version": "3.0.0",
 
     "background": {
-        "scripts": ["background.js"],
+        "scripts": ["src/js/background.js"],
         "persistent": false
     },
 
@@ -19,11 +19,11 @@
     ],
 
   "page_action": {
-    "default_icon": "icon48.png",
-    "default_popup": "popup.html"
+    "default_icon": "res/icon48.png",
+    "default_popup": "src/html/popup.html"
   },
 
-  "icons": { "16": "icon16.png",
-           "48": "icon48.png",
-          "128": "icon128.png" }
+  "icons": { "16": "res/icon16.png",
+           "48": "res/icon48.png",
+          "128": "res/icon128.png" }
 }
